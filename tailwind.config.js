@@ -5,6 +5,11 @@ module.exports = {
     extend: {
       container: {
         maxWidth: "1280px",
+        margin: "0 auto",
+        padding: {
+          DEFAULT: "1rem",
+          lg: "4rem",
+        },
       },
     },
   },
