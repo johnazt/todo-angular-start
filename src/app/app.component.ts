@@ -9,7 +9,7 @@ import { LayoutComponent } from './shared/ui/layout.component';
   imports: [CommonModule, HeaderComponent, LayoutComponent],
   template: `
     <app-header></app-header>
-    <app-layout> </app-layout>
+    <app-layout></app-layout>
   `,
   styles: ``,
 })

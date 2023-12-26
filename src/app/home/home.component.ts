@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
+import { TodoFormComponent } from './ui/todo-form.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [],
+  imports: [TodoFormComponent],
   template: `
-    <p>
-      home works!
-    </p>
+    <app-todo-form></app-todo-form>
   `,
   styles: ``
 })
