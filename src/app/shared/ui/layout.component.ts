@@ -6,7 +6,7 @@ import { RouterOutlet } from "@angular/router";
   standalone: true,
   imports: [RouterOutlet],
   template: `
-  <div class="container ">
+  <div class="container mx-auto">
     <router-outlet></router-outlet>
   </div>
   `
