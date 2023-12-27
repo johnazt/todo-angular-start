@@ -12,5 +12,6 @@ export class TodoService {
 
   addTodo(todo: Todo) {
     this.#todos.update(todos => [...todos, todo])
+    console.log(this.todos())
   }
 }
