@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HeaderComponent } from './shared/ui/header/header.component';
+import { HeaderComponent } from './shared/ui/header.component';
 import { LayoutComponent } from './shared/ui/layout.component';
 
 @Component({
