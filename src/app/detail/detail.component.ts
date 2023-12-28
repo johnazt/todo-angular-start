@@ -8,7 +8,7 @@ import { TodoService } from '../shared/data-access/todo.service';
   selector: 'app-detail',
   imports: [RouterLink],
   template: `
-    <div class="bg-teal-100 p-4 text-slate-900 font-semibold h-screen">
+    <div class="bg-teal-100 p-4 text-slate-900 font-semibold h-[calc(100vh-60px)]">
       <div class="flex justify-between">
 
         <h4 class="text-2xl mb-6">Detail page</h4>
@@ -23,7 +23,6 @@ import { TodoService } from '../shared/data-access/todo.service';
       }
     </div>
   `,
-  styles: ``,
 })
 export default class DetailComponent {
   private route = inject(ActivatedRoute);
