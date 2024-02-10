@@ -6,6 +6,10 @@ export const routes: Routes = [
     loadComponent: () => import('./home/home.component'),
   },
   {
+    path: 'rxjs',
+    loadComponent: () => import('./rxjs/rxjs.component'),
+  },
+  {
     path: 'detail/:id',
     loadComponent: () => import('./detail/detail.component'),
   },
