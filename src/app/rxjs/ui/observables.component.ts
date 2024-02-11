@@ -18,22 +18,6 @@ import { Component } from '@angular/core';
   styles: ``,
 })
 export class ObservableComponent {
-  constructor() {
-    this.observer$();
-  }
-
-  observer = {
-    next: (data: number) => console.log(`this is my data ${data}`),
-    complete: () => console.log('data is completed'),
-  }
-
-  observer$ = () => {
-    this.observer.next(1)
-    this.observer.next(3)
-    this.observer.next(4)
-    this.observer.complete()
-  }
-
 
 
 }
